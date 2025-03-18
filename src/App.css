@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+
+body {
+  background-color: #ffedf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Comic Neue", cursive;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.apology-text {
+  font-size: 2rem;
+  color: #ff4d6d;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.2rem;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.yes-btn {
+  background-color: #ff85a2;
+  color: white;
+}
+
+.yes-btn:hover {
+  background-color: #ff4d6d;
+}
+
+.no-btn {
+  background-color: #ffd166;
+  color: white;
+}
+
+.no-btn:hover {
+  background-color: #ffa600;
+}
